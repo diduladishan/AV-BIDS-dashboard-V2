@@ -48,6 +48,12 @@ function Router() {
       routes: [{ element: lazy(() => import("../pages/13_edit_event_2")) }],
     },
 
+    {
+      path: "/13_edit_event_3",
+      layout: HomeLayout,
+      routes: [{ element: lazy(() => import("../pages/13_edit_event_3")) }],
+    },
+
     { path: "*", element: lazy(() => import("./404")) },
 
     // {

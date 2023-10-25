@@ -311,6 +311,10 @@ function index() {
       <Link to="/13_edit_event_2">
         <div>13_edit_event_2</div>
       </Link>
+
+      <Link to="/13_edit_event_3">
+        <div>13_edit_event_3</div>
+      </Link>
     </div>
   );
 }
