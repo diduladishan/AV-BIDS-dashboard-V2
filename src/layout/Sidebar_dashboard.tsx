@@ -13,8 +13,9 @@ import {
   InboxIcon,
 } from "@heroicons/react/24/solid";
 
-import PLUS_ICON from "../assets/navigation bar/plus.png";
-import NOTIFICATION_ICON from "../assets/navigation bar/bell.png";
+import DASHBOARD from "../assets/sidebar/dashboard.png";
+import EVENT from "../assets/sidebar/my events.png";
+import MESSAGES from "../assets/sidebar/message.png";
 
 export function Sidebar_dashboard() {
   return (
@@ -28,23 +29,35 @@ export function Sidebar_dashboard() {
         <List>
           <ListItem>
             <ListItemPrefix>
-              <PresentationChartBarIcon className="h-5 w-5" />
+              <img
+                src={DASHBOARD}
+                alt="aad"
+                className="object-scale-down w-[18px]"
+              />
             </ListItemPrefix>
             Dashboard
           </ListItem>
           <ListItem>
             <ListItemPrefix>
-              <ShoppingBagIcon className="h-5 w-5" />
+              <img
+                src={EVENT}
+                alt="aad"
+                className="object-scale-down w-[18px]"
+              />
             </ListItemPrefix>
-            E-Commerce
+            My Event
           </ListItem>
           <ListItem>
             <ListItemPrefix>
-              <InboxIcon className="h-5 w-5" />
+              <img
+                src={MESSAGES}
+                alt="aad"
+                className="object-scale-down w-[18px]"
+              />
             </ListItemPrefix>
-            Inbox
+            Messages
           </ListItem>
-          <ListItem>
+          {/* <ListItem>
             <ListItemPrefix>
               <UserCircleIcon className="h-5 w-5" />
             </ListItemPrefix>
@@ -61,7 +74,7 @@ export function Sidebar_dashboard() {
               <PowerIcon className="h-5 w-5" />
             </ListItemPrefix>
             Log Out
-          </ListItem>
+          </ListItem> */}
         </List>
       </Card>
       ;

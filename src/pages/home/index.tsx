@@ -70,7 +70,7 @@ function index() {
                   <Input
                     label="Username"
                     crossOrigin=""
-                    className=" bg-[#f0edfb]"
+                    className=" bg-[#f0edfc]"
                   />
                 </div>
               </div>
@@ -84,7 +84,7 @@ function index() {
                   <Input
                     label="Username"
                     crossOrigin=""
-                    className=" bg-[#f0edfb]"
+                    className=" bg-[#f0edfc]"
                   />
                 </div>
               </div>
@@ -96,7 +96,7 @@ function index() {
                   <Input
                     label="Username"
                     crossOrigin=""
-                    className=" bg-[#f0edfb]"
+                    className=" bg-[#f0edfc]"
                   />
                 </div>
               </div>
@@ -108,7 +108,7 @@ function index() {
                   <Input
                     label="Username"
                     crossOrigin=""
-                    className=" bg-[#f0edfb]"
+                    className=" bg-[#f0edfc]"
                   />
                 </div>
               </div>
@@ -121,7 +121,7 @@ function index() {
                   <Input
                     label="Username"
                     crossOrigin=""
-                    className=" bg-[#f0edfb]"
+                    className=" bg-[#f0edfc]"
                   />
                 </div>
               </div>
@@ -242,7 +242,7 @@ function index() {
                 type="password"
                 label="Password"
                 crossOrigin=""
-                className=" bg-[#f0edfb]"
+                className=" bg-[#f0edfc]"
               />
             </div>
           </div>
@@ -254,7 +254,7 @@ function index() {
                 type="password"
                 label="Password"
                 crossOrigin=""
-                className=" bg-[#f0edfb]"
+                className=" bg-[#f0edfc]"
               />
             </div>
           </div>
@@ -266,7 +266,7 @@ function index() {
                 type="password"
                 label="Password"
                 crossOrigin=""
-                className=" bg-[#f0edfb]"
+                className=" bg-[#f0edfc]"
               />
             </div>
           </div>
@@ -293,40 +293,54 @@ function index() {
         </div>
       </section>
 
-      <Link to="/12_events">
-        <div>12_events</div>
-      </Link>
+      <h2 className="text-[30px] text-primary text-center mb-4">Site Map</h2>
 
-      <Link to="/13_event_details_page">
-        <div>13_event_details_page</div>
-      </Link>
-      <Link to="/13_edit_event">
-        <div>13_edit_events</div>
-      </Link>
+      <div className="flex items-center justify-center gap-32 mb-6">
+        <div className="font-medium">
+          <Link to="/12_events">
+            <div>12_events</div>
+          </Link>
 
-      <Link to="/13_edit_event_1">
-        <div>13_edit_event_1</div>
-      </Link>
+          <Link to="/13_event_details_page">
+            <div>13_event_details_page</div>
+          </Link>
+          <Link to="/13_edit_event">
+            <div>13_edit_events</div>
+          </Link>
 
-      <Link to="/13_edit_event_2">
-        <div>13_edit_event_2</div>
-      </Link>
+          <Link to="/13_edit_event_1">
+            <div>13_edit_event_1</div>
+          </Link>
+        </div>
 
-      <Link to="/13_edit_event_3">
-        <div>13_edit_event_3</div>
-      </Link>
+        <div className="font-medium">
+          <Link to="/13_edit_event_2">
+            <div>13_edit_event_2</div>
+          </Link>
 
-      <Link to="/13_edit_event_4">
-        <div>13_edit_event_4</div>
-      </Link>
+          <Link to="/13_edit_event_3">
+            <div>13_edit_event_3</div>
+          </Link>
 
-      <Link to="/13_edit_event_5">
-        <div>13_edit_event_5</div>
-      </Link>
+          <Link to="/13_edit_event_4">
+            <div>13_edit_event_4</div>
+          </Link>
 
-      <Link to="/13_edit_event_6">
-        <div>13_edit_event_6</div>
-      </Link>
+          <Link to="/13_edit_event_5">
+            <div>13_edit_event_5</div>
+          </Link>
+        </div>
+
+        <div className="font-medium">
+          <Link to="/13_edit_event_6">
+            <div>13_edit_event_6</div>
+          </Link>
+
+          <Link to="/14_messages">
+            <div>14_messages</div>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }
