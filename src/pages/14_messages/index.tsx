@@ -1,23 +1,30 @@
 import React from "react";
 import { Button } from "@material-tailwind/react";
 
-import { Card, Typography, Select, Option } from "@material-tailwind/react";
+import {
+  Card,
+  Typography,
+  Select,
+  Option,
+  Avatar,
+} from "@material-tailwind/react";
 
 import REFRESH_ICON from "../../assets/14_messages/refresh.png";
+import PROFILE_PHOTO from "../../assets/14_messages/profile photo.jpg";
 
 function index() {
   return (
     // <div>event_planner</div>
     <div className="container mx-auto">
-      <section>
+      <section className="bg-white rounded-xl p-6">
         <h2 className="text-[20px] font-semibold mb-6">Message</h2>
 
-        <div className="grid grid-cols-2 border border-[#EDECF1]">
-          <div className="border border-[#EDECF1]">
-            <div className="grid grid-rows-7  gap-4">
-              <div>
+        <div className="grid grid-cols-3 border border-[#EDECF1] rounded-xl">
+          <div className="border-r border-[#EDECF1]">
+            <div className="grid grid-rows-7 gap-4">
+              <div className="border-b  border-[#EDECF1] p-4">
                 <div className="flex items-start justify-between gap-4">
-                  <div>
+                  <div className="flex items-center gap-4">
                     <p>All</p>
                     <p>Unread (1)</p>
                   </div>
@@ -30,77 +37,226 @@ function index() {
                 </div>
               </div>
               <div>
-                <div>
+                <div className="border-b  border-[#EDECF1] p-4">
                   <div className="flex items-center justify-between">
-                    <h2 className="text-[20px] font-semibold">Holden Cox</h2>
+                    <div className="flex items-center gap-4">
+                      <Avatar
+                        variant="circular"
+                        size="sm"
+                        alt="tania andrew"
+                        className="border border-gray-900"
+                        src={PROFILE_PHOTO}
+                      />
+
+                      <div className="flex flex-col">
+                        <h2 className="text-[20px] font-semibold">
+                          Holden Cox
+                        </h2>
+                        <p>Subject: AV Requirements</p>
+                      </div>
+                    </div>
+
                     <p>May 9</p>
                   </div>
-
-                  <p>Subject: AV Requirements</p>
                 </div>
               </div>
+
               <div>
-                <div>
+                <div className="border-b  border-[#EDECF1] p-4">
                   <div className="flex items-center justify-between">
-                    <h2 className="text-[20px] font-semibold">Holden Cox</h2>
+                    <div className="flex items-center gap-4">
+                      <Avatar
+                        variant="circular"
+                        size="sm"
+                        alt="tania andrew"
+                        className="border border-gray-900"
+                        src={PROFILE_PHOTO}
+                      />
+
+                      <div className="flex flex-col">
+                        <h2 className="text-[20px] font-semibold">
+                          Holden Cox
+                        </h2>
+                        <p>Subject: AV Requirements</p>
+                      </div>
+                    </div>
+
                     <p>May 9</p>
                   </div>
-
-                  <p>Subject: AV Requirements</p>
                 </div>
               </div>
-              <div>
-                <div className="flex items-center justify-between">
-                  <h2 className="text-[20px] font-semibold">Holden Cox</h2>
-                  <p>May 9</p>
-                </div>
 
-                <p>Subject: AV Requirements</p>
+              <div>
+                <div className="border-b  border-[#EDECF1] p-4">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-4">
+                      <Avatar
+                        variant="circular"
+                        size="sm"
+                        alt="tania andrew"
+                        className="border border-gray-900"
+                        src={PROFILE_PHOTO}
+                      />
+
+                      <div className="flex flex-col">
+                        <h2 className="text-[20px] font-semibold">
+                          Holden Cox
+                        </h2>
+                        <p>Subject: AV Requirements</p>
+                      </div>
+                    </div>
+
+                    <p>May 9</p>
+                  </div>
+                </div>
               </div>
-              <div>
-                <div className="flex items-center justify-between">
-                  <h2 className="text-[20px] font-semibold">Holden Cox</h2>
-                  <p>May 9</p>
-                </div>
 
-                <p>Subject: AV Requirements</p>
+              <div>
+                <div className="border-b  border-[#EDECF1] p-4">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-4">
+                      <Avatar
+                        variant="circular"
+                        size="sm"
+                        alt="tania andrew"
+                        className="border border-gray-900"
+                        src={PROFILE_PHOTO}
+                      />
+
+                      <div className="flex flex-col">
+                        <h2 className="text-[20px] font-semibold">
+                          Holden Cox
+                        </h2>
+                        <p>Subject: AV Requirements</p>
+                      </div>
+                    </div>
+
+                    <p>May 9</p>
+                  </div>
+                </div>
               </div>
-              <div>
-                <div className="flex items-center justify-between">
-                  <h2 className="text-[20px] font-semibold">Holden Cox</h2>
-                  <p>May 9</p>
-                </div>
 
-                <p>Subject: AV Requirements</p>
+              <div>
+                <div className="border-b  border-[#EDECF1] p-4">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-4">
+                      <Avatar
+                        variant="circular"
+                        size="sm"
+                        alt="tania andrew"
+                        className="border border-gray-900"
+                        src={PROFILE_PHOTO}
+                      />
+
+                      <div className="flex flex-col">
+                        <h2 className="text-[20px] font-semibold">
+                          Holden Cox
+                        </h2>
+                        <p>Subject: AV Requirements</p>
+                      </div>
+                    </div>
+
+                    <p>May 9</p>
+                  </div>
+                </div>
               </div>
-              <div>
-                <div className="flex items-center justify-between">
-                  <h2 className="text-[20px] font-semibold">Holden Cox</h2>
-                  <p>May 9</p>
-                </div>
 
-                <p>Subject: AV Requirements</p>
+              <div>
+                <div className="p-4">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-4">
+                      <Avatar
+                        variant="circular"
+                        size="sm"
+                        alt="tania andrew"
+                        className="border border-gray-900"
+                        src={PROFILE_PHOTO}
+                      />
+
+                      <div className="flex flex-col">
+                        <h2 className="text-[20px] font-semibold">
+                          Holden Cox
+                        </h2>
+                        <p>Subject: AV Requirements</p>
+                      </div>
+                    </div>
+
+                    <p>May 9</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
-          <div>
-            <div className="grid grid-rows-3 gap-">
-              <div className="flex items-center justify-between">
-                <h2 className="text-[20px] font-semibold">Holden Cox</h2>
-                <p>May 9</p>
+          <div className="col-span-2">
+            <div className="grid grid-rows-7 h-full">
+              <div className="border-b border-[#EDECF1] row-span-1 p-4 ">
+                <div className="flex items-center gap-4">
+                  <Avatar
+                    variant="circular"
+                    size="sm"
+                    alt="tania andrew"
+                    className="border border-gray-900"
+                    src={PROFILE_PHOTO}
+                  />
+
+                  <div className="flex flex-col">
+                    <h2 className="text-[20px] font-semibold">Holden Cox</h2>
+                    <p>ACME AV</p>
+                    <p>Subject: AV Requirements</p>
+                  </div>
+                </div>
               </div>
 
-              <p>Subject: AV Requirements</p>
-              <div>
-                <h2 className="text-[20px] font-semibold">Holden Cox</h2>
-                <p>
-                  Question about some of the av requirements listed on the event
-                  detail page that did not show
-                </p>
+              <div className="border-b border-[#EDECF1] row-span-5 p-4">
+                <div className="flex items-center gap-3">
+                  <Avatar
+                    variant="circular"
+                    size="sm"
+                    alt="tania andrew"
+                    className="border border-gray-900 self-start"
+                    src={PROFILE_PHOTO}
+                  />
+                  <div>
+                    <div className="flex items-center gap-3">
+                      <h2 className="text-[20px] font-semibold">Holden Cox</h2>
+                      <p className="text-[#888888]">July 1, 2021</p>
+                    </div>
+
+                    <div className="bg-[#F3F1FB] p-4 rounded-tl-none rounded-tr-md rounded-br-md rounded-bl-md">
+                      <p>
+                        Question about some of the av requirements listed on the
+                        event detail page that did not show
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-4 mt-6 justify-end">
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <p className="text-[#888888] text-right">July 1, 2021</p>
+                      <p className="text-right">You</p>
+                    </div>
+
+                    <p className="bg-[#8645FF] p-4 rounded-tl-md rounded-tr-none rounded-br-md rounded-bl-md text-right w-max mt-1 text-white">
+                      Thank you
+                    </p>
+                  </div>
+
+                  <Avatar
+                    variant="circular"
+                    size="sm"
+                    alt="tania andrew"
+                    className="border border-gray-900 p-0.5 self-start"
+                    src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+                  />
+                </div>
+
+                <div className="flex justify-end mt-2"></div>
               </div>
-              <div>
-                <p>Write Your Message</p>
+
+              <div className="row-span-1">
+                <p className="p-4">Write Your Message</p>
               </div>
             </div>
           </div>
